@@ -120,12 +120,12 @@ def displayDeviceInformation():
 def warning():
     if platform.system() not in ["Windows","Linux","Darwin"]:
         print("This program is optimized for Windows, Linux, and MacOS.","Some features may not work",sep="\n")
-    print("Thank you for using RTC_File3")
+    print("Thank you for using RTC")
     sleep(2)
 def recommendation():
     clearConsole()
-    print("Recommended using this program with")
-    print("Visual Studio Code installed with Python 3.13 or higher version")
+    print("Recommended using this program with Visual Studio or")
+    print("Visual Studio Code with Python 3.13 or higher version that has been installed")
     sleep(1)
 def preparation():
     print("Starting project",end="")
@@ -151,14 +151,3 @@ def main():
         sleep(0.5)
 if __name__=="__main__":
     main()
-
-'''
-Program information:
-Program name: RTC (Real-Time Clock)
-Lines: 153
-Program is optimized for:
-- Windows
-- Linux
-- MacOS
-(Programmed with the help of AI)
-'''
