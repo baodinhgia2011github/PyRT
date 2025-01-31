@@ -1,4 +1,4 @@
-# RTC (Real-Time Clock project)
+# PyRTC (Python Real-Time Clock project)
 #### This is my first Real-Time Clock project.
 #### It can have some problems like compatibility, complexity, etc.
 #### Please give me a feedback of RTC.py so I can fix and improve in the later version.
